@@ -28,11 +28,47 @@
             padding: 14px 16px;
             text-decoration: none;
         }
+        .topnav a:hover{
+            background-color: #ddd;
+            color: black;
+            border-radius: 9px;
+        }
+        .nav2{
+            background-color: #a09a9a;
+            color: #f1f1f1;
+            padding: 3px;
+            text-align: center;
+        }
+        .hv1{
+            display: inline-block;
+            vertical-align: top;
+            margin: 0px;
+        }
+        .hv1 p{
+            background-color: lightsalmon;
+            color: brown;
+            width: 200px;
+            height: 150px;
+            display: inline-block;
+            padding: 30px 30px;
+            text-wrap: wrap;
+            font-size: 30px;
+        }
+        .txt1, .txt2, .img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .hv1 .img :hover{
+            box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        .hv1 p:hover{
+            box-shadow: 2px 2px 2px black, 1 1 20px red, 0 0 5px darkred
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1><img src="nathvalleylogo.png">Nath Valley School</h1>
+        <img src="nathvalleylogo.png" alt="logo"><h1>Nath Valley School</h1>
     </div>
     <div class="topnav">
         <a href="#">Home</a>
@@ -46,5 +82,31 @@
         <a href="#">Mandatory Disclosure</a>
         <a href="#">Contact Us</a>
     </div>
+    <div class="nav2">
+        <p>Theme of the year-"Values Drive Excellence"</p>
+    </div>
+    <div class="video">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/UnwtlW_x9v0?si=rr6WowtTsziSC1Al" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="campus">
+        <img src="campus.jpg" width="100%" height="400px">
+    </div>
+        <div class="hv1">
+            <div class="text txt1">
+                <p>Textbooks & notebooks</p>
+            </div>
+            <div class="img one">
+                <img src="books.jpg" alt="books" width="200px" height="150">
+            </div>
+            <div class="img two">
+                <img src="students.jpg" alt="students" width="200px" height="150px">
+            </div>
+            <div class="text txt2">
+                <p>International School Award</p>
+            </div>
+            <div class="img three">
+                <img src="teacher.jpg" alt="teacher" width="200px" height="150px">
+            </div>
+        </div>
 </body>
 </html>
